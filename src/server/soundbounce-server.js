@@ -27,9 +27,9 @@ var soundbounceServer = {
     roomStoreFileName: jsonFolder + "rooms.json",
     superAdmins: ['Q11rWo9W'],
 
-    RECYCLE_TRACKS_WHEN_PLAYLIST_HAS_LESS_THAN: 200,
-    TOP_UP_WHEN_TRACKS_BELOW: 130,
-    ROOM_MAX_TRACKS: 300,
+    RECYCLE_TRACKS_WHEN_PLAYLIST_HAS_LESS_THAN: 9999,
+    TOP_UP_WHEN_TRACKS_BELOW: 200,
+    ROOM_MAX_TRACKS: 10000,
     MAX_RECENT_ROOMS: 10,
 
     spotify: new spotifyApi({
